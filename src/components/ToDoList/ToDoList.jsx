@@ -72,13 +72,13 @@ export default function ToDoList() {
               onClick={() => setEditingIndex(index)}
               className={styles.editBtn}
             >
-              <FaPencilRuler />
+              <FaPencilRuler color="green" size={18} />
             </button>
             <button
               onClick={() => removeItem(index)}
               className={styles.removeBtn}
             >
-              <IoCloseCircle color="#E61240" />
+              <IoCloseCircle color="#E61240" size={18} />
             </button>
           </li>
         ))}
