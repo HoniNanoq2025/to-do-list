@@ -1,0 +1,30 @@
+.form {
+  width: 400px;
+  height: auto;
+}
+
+input {
+  margin: 0.5rem 1rem;
+}
+
+.submitBtn {
+  margin: 0.2rem 0.5rem;
+}
+
+li {
+  gap: 20px;
+}
+
+.editBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0.2rem auto;
+}
+
+.removeBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0.2rem auto;
+}
