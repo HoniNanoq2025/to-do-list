@@ -12,7 +12,7 @@ export default function ToDoList() {
   const [toDoList, setToDoList] = useState(() => {
     //Indlæs fra localStorage ved første render
     const saved = localStorage.getItem("todoList");
-    return saved ? JSON.parse(saved) : [];
+    return saved ? JSON.parse(saved) : []; //Hvis saved eksisterer, så returner JSON.parse(saved), ellers returner []
   });
 
   // State til at holde styr på hvilket element der redigeres (null = intet redigeres)
